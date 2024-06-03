@@ -9,6 +9,7 @@ Efficient algorithms: Writing algorithms that are not only correct but also opti
 Exception handling: Properly using try-catch blocks to handle errors gracefully.
 
 Documentation: Writing comments and documentation to explain the code’s purpose and logic.
+
 ----------------------------------------------------------------------------------------------------------------------------------------
 
 Second is to Identify Applied Best Practices
@@ -26,6 +27,8 @@ Exception Handling: Did I properly handle exceptions using try-catch blocks?
 Documentation: Are there comments and documentation explaining the code?
 
 ----------------------------------------------------------------------------------------------------------------------------------------
+
+
 Explanation of Best Practices Implemented:
 
 1. Variable Naming Conventions:
@@ -73,5 +76,4 @@ try (BufferedReader reader = new BufferedReader(new FileReader(filename))) {
     // Properly handling the IOException
     e.printStackTrace();
 }
-
 The try-with-resources statement is used for handling file I/O, ensuring that resources are properly closed after use, and exceptions are caught and handled.
